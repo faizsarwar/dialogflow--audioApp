@@ -1,14 +1,27 @@
 {
-  "name": "webhook-echo-sample",
+  "name": "audio",
   "version": "1.0.0",
-  "description": "Webhook echo sample",
+  "description": "durain chatbot shop app",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sunil Syal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faizsarwar/audio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faizsarwar/audio/issues"
+  },
+  "homepage": "https://github.com/faizsarwar/audio#readme",
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4"
+    "actions-on-google": "^2.14.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.17.1",
+    "knex": "^0.95.9",
+    "sqlite3": "^5.0.2"
   }
 }
